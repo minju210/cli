@@ -6,10 +6,13 @@ authors = [
     {name = "minju210", email = "juliana6190210@gmail.com"},
 ]
 dependencies = []
-requires-python = "==3.11.*"
+requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
 
 [tool.pdm]
-distribution = false
+distribution = true
+
+[project.scripts]
+minju210_cli = 'minju210_cli.cli:call'
