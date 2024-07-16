@@ -15,4 +15,4 @@ license = {text = "MIT"}
 distribution = true
 
 [project.scripts]
-minju210_cli = 'minju210_cli.cli:call'
+minju210-cli = 'minju210_cli.cli:call'
